@@ -1,0 +1,739 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Poppins", sans-serif;
+}
+
+.btn {
+    display: inline-block;
+    min-width: 118px;
+    padding: 12px 24px;
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 1.86;
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 9999px;
+    background: #171100;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+}
+
+.column {
+    width: 31.6%;
+}
+
+.content {
+    width: 1170px;
+    margin: auto;
+}
+/* =================== Header+++++++++++++++++++++++ */
+.header {
+    height: 900px;
+    background: #fffcf4;
+}
+
+.navbar {
+    padding-top: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .nav-left,
+.nav-list {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list {
+    margin-right: 70px;
+}
+
+.nav-item {
+    margin-left: 42px;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    color: #5f5b53;
+}
+
+.nav-list li:first-child .nav-item {
+    position: relative;
+    font-weight: 600;
+    color: #171100;
+}
+
+.nav-list li:first-child .nav-item::after {
+    display: inline-block;
+    content: "";
+    width: 12px;
+    height: 2px;
+    position: absolute;
+    border-radius: 1px;
+    bottom: 0px;
+    left: 0;
+    background-color: #171100;
+}
+
+.btn-sign-up {
+    padding: 11px 41px 10px;
+    min-width: 144px;
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    text-align: center;
+    color: #ffffff;
+}
+
+.hero {
+    margin-top: 72px;
+    display: flex;
+}
+
+.hero .hero-images {
+    position: relative;
+}
+
+.hero .hero-images .img {
+    border-radius: 20px;
+    width: 470px;
+    height: 685px;
+    object-fit: cover;
+}
+
+.hero .card {
+    position: absolute;
+    top: 393px;
+    left: 300px;
+}
+
+.card-list {
+    width: 270px;
+    padding: 28px 24px;
+    border-radius: 12px;
+    box-shadow: 0px 16px 32px rgba(0, 0, 0, 0.05);
+    background: #fff;
+}
+
+.card-item {
+    display: flex;
+    align-items: center;
+}
+
+.card-info {
+    margin-left: 16px;
+}
+
+.card-info .num {
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.86;
+    color: #5f5b53;
+}
+
+.card-info .name {
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 1.67;
+    color: #171100;
+}
+
+.hero-content {
+    margin: 64px 0 63px 230px;
+}
+
+.hero-content .title {
+    font-family: "Sen";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 5.8rem;
+    line-height: 1.17;
+    letter-spacing: -0.02em;
+    color: #171100;
+}
+
+.hero-content .desc {
+    margin-top: 22px;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 1.67;
+    color: #5f5b53;
+}
+
+.hero .act {
+    margin-top: 55px;
+    display: flex;
+    align-items: center;
+}
+
+.hero-btn {
+    padding: 17px 34px;
+    font-weight: 600;
+    font-size: 1.8rem;
+    color: #ffffff;
+    background: #ffb900;
+    border-radius: 32px;
+}
+
+.play-video-link {
+    margin-left: 28px;
+}
+
+.act .play-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background: #ffffff;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.07);
+    border-radius: 50%;
+}
+
+.play-link {
+    display: flex;
+    align-items: center;
+    padding: 14px;
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 1.67;
+    color: #171100;
+    text-decoration: none;
+}
+
+.play-link span {
+    margin-left: 14px;
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 1.67;
+    color: #171100;
+}
+
+.desc-qty {
+    margin-top: 48px;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 1.67;
+    color: #5f5b53;
+}
+
+.qty-item {
+    display: flex;
+    margin-left: 28px;
+    align-items: flex-end;
+}
+
+.row-qty {
+    margin-top: 8px;
+}
+
+.qty-item:first-child {
+    margin-left: 0;
+}
+
+.qty-item .qty {
+    font-weight: 600;
+    font-size: 5rem;
+    letter-spacing: -0.02em;
+    color: #171100;
+}
+
+.qty-item .qty-desc {
+    margin-left: 8px;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 1.67;
+    color: #5f5b53;
+}
+
+/* ======================= Course ++++++++++++++++++ */
+.courses {
+    padding: 200px 0;
+    background: #e5e5e5;
+}
+
+.courses .title {
+    width: 458px;
+}
+
+.courses .title .sub-title {
+    font-family: "Sen";
+    font-weight: 700;
+    font-size: 3.8rem;
+    line-height: 1.26;
+    letter-spacing: -0.02em;
+    color: #171100;
+}
+
+.courses .title .desc {
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 1.67;
+    color: #5f5b53;
+}
+
+.courses .act {
+    margin-left: auto;
+    display: flex;
+}
+
+.courses .act .arrow-left,
+.courses .act .arrow-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffb900;
+    font-size: 2rem;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ffb900;
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+.courses .act .arrow-left {
+    margin-right: 18px;
+}
+
+.courses .act .arrow-right {
+    color: #fff;
+    background: #ffb900;
+}
+
+.course-list {
+    margin-top: 55px;
+    justify-content: space-between;
+}
+
+.course-item {
+    border-radius: 12px;
+    background: #ffffff;
+    box-shadow: 0px 18px 36px rgba(0, 0, 0, 0.05);
+}
+
+.course-item .image {
+    border-radius: 12px 12px 0 0;
+    width: 100%;
+    height: 278px;
+    object-fit: cover;
+}
+
+.course-info {
+    padding: 16px 22px 22px;
+}
+
+.course-info .sub-title {
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 1.67;
+    color: #171100;
+}
+
+.course-info .eval {
+    margin-left: auto;
+}
+
+.course-info .eval span {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    color: #fea31b;
+}
+
+.course-info .desc {
+    margin-top: 6px;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.86;
+    color: #5f5b53;
+}
+
+.course-info .course-row {
+    margin-top: 12px;
+    justify-content: space-between;
+}
+
+.course-info .price {
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 1.67;
+    color: #171100;
+}
+
+.course-item:first-child .course-info .btn {
+    background-color: #ffb900;
+}
+
+/* ++++++++++++++++++++++++++ testimonial =========================== */
+.testimonial {
+    background-color: #2e2100;
+}
+
+.testimonial .testimonial-container {
+    padding: 96px 0;
+    display: flex;
+}
+
+.person-info {
+    min-width: 159px;
+    height: 188px;
+}
+
+.person-info .avatar {
+    width: 72px;
+    height: 72px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.person-info .name {
+    margin-top: 18px;
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 1.42;
+    color: #f7f7f7;
+    word-wrap: break-word;
+}
+
+.person-info .job {
+    margin-top: 4px;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.86;
+    color: #bfbcb3;
+}
+
+.list-tet {
+    margin-top: 18px;
+}
+
+.list-tet i {
+    font-size: 6px;
+    color: #634700;
+}
+
+.list-tet i:nth-child(2) {
+    color: #ffb900;
+}
+
+.testimonial .stated {
+    margin-left: 241px;
+}
+
+.testimonial .stated .desc {
+    padding: 0 0 0 28px;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 2.6rem;
+    line-height: 1.54;
+    color: #ffffff;
+}
+
+/* ======================== Features ++++++++++++++++++++++ */
+.features {
+    background: #e5e5e5;
+}
+
+.features .content {
+    padding: 200px 0;
+}
+
+.feature-img-top {
+    width: 270px;
+    height: 404px;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+.feature-img-top:first-child {
+    margin-top: 34px;
+}
+
+.feature-img-top:nth-child(2) {
+    margin-left: 30px;
+}
+
+.features .row-top .feature-content {
+    margin-left: 130px;
+}
+
+.feature-content .title {
+    font-family: "Sen";
+    font-weight: 700;
+    font-size: 3.8rem;
+    line-height: 1.26;
+    letter-spacing: -0.02em;
+    color: #171100;
+}
+
+.feature-content .desc {
+    width: 458px;
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    color: #5f5b53;
+    position: relative;
+}
+
+.feature-content .top {
+    height: 140px;
+}
+
+.feature-content .desc-top {
+    width: 458px;
+}
+
+.feature-content .desc-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.features .btn {
+    margin-top: 38px;
+    background: #ffb900;
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 26px;
+    min-width: 137px;
+}
+
+.features .row-bottom {
+    margin-top: 200px;
+}
+
+.row-bottom .feature-content,
+.row-bottom .feature-content .desc {
+    width: 570px;
+}
+
+.feature-img-bottom {
+    margin-left: 130px;
+    width: 470px;
+    height: 440px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+/* ++++++++++++++++++++++++++ Blog ------------------------- */
+.blogs {
+    background: #fffcf4;
+}
+
+.blogs .content {
+    padding: 96px 0;
+}
+
+.blog-title {
+    width: 448px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.blog-title .title {
+    font-family: "Sen";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.8rem;
+    line-height: 1.26;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #130606;
+}
+
+.blog-title .desc {
+    margin-top: 16px;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    text-align: center;
+    color: #696262;
+}
+
+.blog-list {
+    margin-top: 55px;
+    justify-content: space-between;
+}
+
+.blog-item {
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0px 16px 32px rgba(0, 0, 0, 0.05);
+}
+
+.blog-item .blog-img {
+    width: 100%;
+    height: 250px;
+    border-radius: 16px 16px 0 0;
+}
+
+.blog-info {
+    padding: 0 20px;
+}
+
+.blog-info .time {
+    display: flex;
+    align-items: center;
+    width: 160px;
+    padding: 20px 0 12px;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.86;
+    color: #5f5b53;
+    border-bottom: #e2dfda 1px solid;
+}
+
+.blog-info .time i {
+    color: #ffb900;
+    font-size: 0.6rem;
+    margin-right: 4px;
+}
+
+.blog-info .title {
+    margin-top: 12px;
+}
+
+.blog-info .title a {
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    color: #171100;
+    text-decoration: none;
+}
+
+.blog-info .btn {
+    margin: 12px 0 28px;
+}
+
+.blog-item:first-child .btn {
+    background: #ffb900;
+}
+
+.blogs .list-tet {
+    margin-top: 38px;
+    text-align: center;
+}
+
+/* ====================== Footer +++++++++++++++++++++++++ */
+.footer {
+    background: #2e2100;
+}
+
+.footer .content {
+    padding: 96px 0 28px;
+}
+
+.footer-left {
+    width: 276px;
+}
+
+.footer-left .logo {
+    font-family: "Sen";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 1.42;
+    color: #ffffff;
+}
+
+.footer-left .logo i {
+    font-size: 4px;
+    margin-left: 1px;
+    color: #ffb900;
+}
+
+.footer-left .desc {
+    margin-top: 18px;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.86;
+    color: #bfbcb2;
+    width: 276px;
+}
+
+.social-list {
+    margin-top: 18px;
+    display: flex;
+    gap: 0 18px;
+}
+
+.social-item {
+    color: #fff;
+}
+
+.footer .row {
+    align-items: flex-start;
+}
+
+.row-border {
+    padding-bottom: 38px;
+    border-bottom: 1px solid #59554b;
+}
+
+.footer-right {
+    margin-left: 145px;
+    align-items: stretch;
+    gap: 0 130px;
+}
+
+.footer-right .heading {
+    padding: 0 0 14px 0;
+    width: 130px;
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    color: #ffffff;
+    border-bottom: 1px solid #59554b;
+}
+
+.footer-right .item {
+    margin-top: 12px;
+    word-break: break-all;
+}
+
+.footer-right .item a {
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.86;
+    color: #bfbcb2;
+    text-decoration: none;
+}
+
+.footer-right .item:first-child {
+    margin-top: 28px;
+}
+
+.footer-right .column:nth-child(3) .item {
+    width: 231px;
+}
+
+.footer-right .column:nth-child(2) .item {
+    width: 137px;
+}
+
+.copy-right {
+    margin-top: 28px;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.86;
+    text-align: center;
+    color: #807d74;
+}
